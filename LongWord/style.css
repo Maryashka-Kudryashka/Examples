@@ -1,0 +1,35 @@
+h1 {
+    color: forestgreen;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container div {
+    font-size: 20px;
+    width: 150px;
+    padding: 5px;
+    border: 2px dashed forestgreen;
+}
+
+.container h3 {
+    margin-top: 0;
+    color: forestgreen;
+}
+
+.example1 {
+    overflow: hidden;
+}
+
+.example2 {
+    word-break: break-all;
+}
+
+.example3 {
+    overflow-wrap: break-word;
+}
+
